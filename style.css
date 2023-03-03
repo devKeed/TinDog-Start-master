@@ -182,7 +182,9 @@ h1,h2{
 }
 */
 @media (max-width: 1028px){
-
+	h1,h2,h3,p,body{
+		font-size: 0.5rem;
+	}
 
 	.left-hero{
 		width: 100%;
@@ -197,7 +199,7 @@ h1,h2{
 	.title-image{
 		transform: rotate(0);
 		position: static;
-		width: 65%;
+		width: 55%;
 		padding-top: 5%;
 		align-items: center;
 	}
@@ -211,10 +213,6 @@ h1,h2{
 		line-height: 1.2;
 		font-weight: 800;
 		font-size: 1.5rem;
-	}
-
-	.download-button{
-		font-size: 30%;
 	}
 
 	.testimonial-writeup{

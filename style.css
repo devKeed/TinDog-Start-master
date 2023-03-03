@@ -178,12 +178,13 @@ h1,h2{
 
 /*Media queries*/
 
-@media (max-width: 1200px){
+@media (max-width: 1028px){
 
 
 	.hero-title{
 		text-align: center;
 	}
+
 	.title-image{
 		transform: rotate(0);
 		position: static;

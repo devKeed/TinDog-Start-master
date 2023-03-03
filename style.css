@@ -191,6 +191,7 @@ h1,h2{
 
 	.hero-title{
 		text-align: center;
+		padding-top: 2rem;
 	}
 
 	.title-image{
@@ -209,13 +210,38 @@ h1,h2{
 		text-align: center;
 		line-height: 1.2;
 		font-weight: 800;
-		font-size: 3rem;
+		font-size: 1.5rem;
 	}
 
 	.download-button{
-		font-size: 90%;
+		font-size: 30%;
 	}
 
+	.testimonial-writeup{
+		font-size: 2rem;
+	}
+
+	.testee-image{
+		height: 7rem;
+		width: 7rem;
+	}
+
+	.name-place{
+		font-size: 50%;
+	}
+
+	#pricing{
+		margin: 100px;
+	}
+
+	.pricing-title{
+		font-family: montserrat, sans-serif;
+		font-weight: 900;
+	}
+
+	.three-cards{
+		margin: 2% auto;
+	}
 
 }
 

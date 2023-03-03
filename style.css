@@ -177,9 +177,17 @@ h1,h2{
 
 
 /*Media queries*/
+/*@media(max-width: 1030) and (min-width: 900){
 
+}
+*/
 @media (max-width: 1028px){
 
+
+	.left-hero{
+		width: 100%;
+		flex: none;
+	}
 
 	.hero-title{
 		text-align: center;
@@ -190,11 +198,14 @@ h1,h2{
 		position: static;
 		width: 65%;
 		padding-top: 5%;
+		align-items: center;
+		/*width: 100%;
+		flex: none;*/
 
 	}
 
 	.image-div{
-		position: static;
+		margin: auto;
 	}
 
 	h1{

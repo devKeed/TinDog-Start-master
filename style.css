@@ -199,9 +199,6 @@ h1,h2{
 		width: 65%;
 		padding-top: 5%;
 		align-items: center;
-		/*width: 100%;
-		flex: none;*/
-
 	}
 
 	.image-div{
@@ -210,7 +207,13 @@ h1,h2{
 
 	h1{
 		text-align: center;
-		line-height: 1.3;
+		line-height: 1.2;
+		font-weight: 800;
+		font-size: 3rem;
+	}
+
+	.download-button{
+		font-size: 90%;
 	}
 
 
